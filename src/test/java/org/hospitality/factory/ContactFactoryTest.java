@@ -10,8 +10,6 @@ public class ContactFactoryTest {
     @Test
     public void createContact() {
         Contact contact = ContactFactory.createContact("thokozile@gmail.com", "073");
-
         System.out.println(contact);
-
     }
 }
