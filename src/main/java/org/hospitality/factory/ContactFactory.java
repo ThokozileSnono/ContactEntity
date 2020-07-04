@@ -12,7 +12,6 @@ public class ContactFactory {
                 .setContactNumber(contactNumber)
                 .setEmail(email)
                 .build();
-
         return contact ;
     }
 }
